@@ -1,47 +1,132 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
+<meta charset="UTF-8">
+
 <title>CreatorAI Hub</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
+
 <header>
+
 <h1>🤖 CreatorAI Hub</h1>
+
 <p>AI Tools For Content Creators</p>
+
 </header>
 
+
+
 <section>
+
 <h2>Create Viral Content With AI</h2>
-<p>Generate YouTube titles, scripts and hashtags instantly.</p>
+
+<p>Generate titles, scripts, hashtags and ideas instantly.</p>
+
 </section>
+
+
 
 
 <div class="tools">
 
+
+
 <div class="card">
+
 <h3>🎬 Title Generator</h3>
-<input placeholder="Video topic">
-<button>Generate</button>
+
+<input id="titleInput" placeholder="Enter video topic">
+
+<button onclick="generateTitle()">Generate</button>
+
+<p id="titleResult"></p>
+
 </div>
 
 
+
+
+
 <div class="card">
+
 <h3>📝 Script Generator</h3>
-<input placeholder="Video idea">
-<button>Generate</button>
+
+<input id="scriptInput" placeholder="Enter video idea">
+
+<button onclick="generateScript()">Generate</button>
+
+<p id="scriptResult"></p>
+
 </div>
+
+
+
 
 
 <div class="card">
+
 <h3>#️⃣ Hashtag Generator</h3>
-<input placeholder="Your niche">
-<button>Generate</button>
-</div>
+
+<input id="tagInput" placeholder="Enter niche">
+
+<button onclick="generateTags()">Generate</button>
+
+<p id="tagResult"></p>
 
 </div>
+
+
+
+
+
+<div class="card">
+
+<h3>🖼️ Thumbnail Generator</h3>
+
+<input id="thumbInput" placeholder="Enter video topic">
+
+<button onclick="generateThumbnail()">Generate</button>
+
+<p id="thumbResult"></p>
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<h3>⚡ Viral Hook Generator</h3>
+
+<input id="hookInput" placeholder="Enter video topic">
+
+<button onclick="generateHook()">Generate</button>
+
+<p id="hookResult"></p>
+
+</div>
+
+
+
+
+</div>
+
+
+
+<script src="script.js"></script>
 
 
 </body>
+
 </html>

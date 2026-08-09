@@ -74,3 +74,23 @@ cursor:pointer;
 button:hover{
 background:#16a34a;
 }
+.result{
+margin-top:15px;
+padding:15px;
+background:#0f172a;
+border-radius:12px;
+color:#e2e8f0;
+min-height:20px;
+}
+
+.loading{
+color:#22c55e;
+font-weight:bold;
+animation:blink 1s infinite;
+}
+
+@keyframes blink{
+50%{
+opacity:0.4;
+}
+}
